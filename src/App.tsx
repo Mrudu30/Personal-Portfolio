@@ -20,7 +20,7 @@ const RESUME_DATA = {
   name: "MRUDANI SONGADE",
   role: "BACKEND ENGINEER | PYTHON DEVELOPER | MERN STACK",
   email: "mrudanisongade@gmail.com",
-  phone: "+9173837900",
+  phone: "+91 9173837900",
   links: {
     github: "https://github.com/Mrudu30/",
     linkedin: "https://www.linkedin.com/in/mrudani-songade-b064b5234/"
