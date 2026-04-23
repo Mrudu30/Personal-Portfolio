@@ -55,7 +55,7 @@ function AbstractTechShape() {
 export default function Hero3D() {
   return (
     <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden h-screen w-screen opacity-60">
-      <Canvas camera={{ position: [0, 0, 7], fov: 45 }}>
+      <Canvas camera={{ position: [0, 0, 7], fov: 45 }} style={{ pointerEvents: 'none' }}>
         {/* Subtle moving particles in the background */}
         <Stars radius={50} depth={50} count={1500} factor={4} saturation={0} fade speed={0.5} />
         <ambientLight intensity={0.5} />
