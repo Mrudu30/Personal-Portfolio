@@ -15,6 +15,7 @@ import {
   ArrowLeft
 } from 'lucide-react';
 import { useRef, useState, type ReactNode } from 'react';
+import Hero3D from './components/Hero3D';
 
 const RESUME_DATA = {
   name: "MRUDANI SONGADE",
@@ -248,6 +249,7 @@ function Home() {
 
       <main className="relative z-10 max-w-7xl mx-auto px-6 pt-24 md:pt-32 pb-24">
         {/* HERO SECTION */}
+        <Hero3D />
         <section className="min-h-[50vh] md:min-h-[80vh] flex flex-col justify-center mt-12 md:mt-0 mb-16 md:mb-32">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
