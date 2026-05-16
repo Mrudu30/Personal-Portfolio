@@ -21,7 +21,6 @@ const RESUME_DATA = {
   name: "MRUDANI SONGADE",
   role: "BACKEND ENGINEER | PYTHON DEVELOPER | MERN STACK",
   email: "mrudanisongade@gmail.com",
-  phone: "+91 9173837900",
   links: {
     github: "https://github.com/Mrudu30/",
     linkedin: "https://www.linkedin.com/in/mrudani-songade-b064b5234/"
@@ -394,15 +393,6 @@ function Home() {
             <p className="text-secondary text-lg mb-12 max-w-lg mx-auto">
               Open for backend engineering roles, AI/ML projects, and everything in between.
             </p>
-            <div className="flex flex-col md:flex-row gap-6 justify-center items-center">
-              <a href={`mailto:${RESUME_DATA.email}`} className="text-xl sm:text-2xl md:text-3xl font-display font-bold hover:text-accent transition-colors underline underline-offset-4 md:underline-offset-8 decoration-accent/30 decoration-2 break-all">
-                {RESUME_DATA.email}
-              </a>
-              <span className="hidden md:block opacity-30">/</span>
-              <a href={`tel:${RESUME_DATA.phone}`} className="text-2xl md:text-3xl font-display font-medium text-secondary hover:text-white transition-colors">
-                {RESUME_DATA.phone}
-              </a>
-            </div>
           </div>
         </section>
 
