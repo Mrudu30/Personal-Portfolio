@@ -20,7 +20,7 @@ import Hero3D from './components/Hero3D';
 const RESUME_DATA = {
   name: "MRUDANI SONGADE",
   role: "BACKEND ENGINEER | PYTHON DEVELOPER | MERN STACK",
-  email: "mrudanisongade@gmail.com",
+  email: "bookwormventures@gmail.com",
   links: {
     github: "https://github.com/Mrudu30/",
     linkedin: "https://www.linkedin.com/in/mrudani-songade-b064b5234/"
